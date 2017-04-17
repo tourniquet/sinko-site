@@ -1,0 +1,96 @@
+doctype html
+html
+  head
+    title Эзотерическая школа "SOTIS"
+
+    meta(charset="utf-8")
+
+    link(href="css/style.css", rel='stylesheet', type='text/css')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,500,500italic,400italic,100,100italic&subset=latin,latin-ext,cyrillic,cyrillic-ext', rel='stylesheet', type='text/css')
+    
+  body
+    .container
+      header
+        .col-md-1.col-lg-1.header-bg-left
+        .col-md-1.col-lg-10.header-bg-center
+          h2 ЖЕНСКИЙ  Гороскоп: Территория Космической Красоты
+        .col-md-1.col-lg-1.header-bg-right
+
+      article
+        #main-block.col-md-10.col-lg-10.center-block
+          form#subscribe.form
+            h4 Оставьте заявку на получение
+
+            .center-form
+              .form-group
+                label.sr-only(for="form-name")
+                .input-group
+                  .input-group-addon
+                    i.fa.fa-envelope-o
+                  input#form-name.form-control.input-lg(type="text", placeholder="Ваше имя")
+
+              .form-group
+                label.sr-only(for="form-email")
+                .input-group
+                  .input-group-addon
+                    i.fa.fa-user-o(aria-hidden="true")
+                  input#form-email.form-control.input-lg(type="email", placeholder="Ваш email")
+
+              button.btn.btn-danger.btn-lg(type="button") Подписаться
+
+        #gifts.col-md-10.col-lg-10.center-block
+          .jumbotron
+            h2 Получите подарки, которые сделают Вашу Жизнь лучше!
+
+            h4 * Видео-урок: Женский календарь красоты на месяц
+            p Женский календарь красоты на месяц станет Вашим верным помощником в уходе за собой.
+
+            h4 * Видео-урок: Магическая сила камней в Зодиаке
+            p Используйте магическую силу камней, которая даст Вам уверенность, защиту и привлекательность.
+
+            h4 * Видео-урок: Как найти общий язык с инопланетянином
+            p 36 отличий между мужчиной и женщиной.
+
+        #about.col-md-10.col-lg-10.center-block
+          img.img-thumbnail(src="../img/sinko.jpg", alt="Dmitrii Sinko photo")
+
+          .pull-right
+            h3.text-center От президента тибетской эзотерической школы "SOTIS" Дмитрия Синько
+            ul
+              li Астрологический стаж преподавания и консультирования более 34 лет
+              li Имеет своих последователей в России, Швейцарии, Голландии, Латвии, Германии, Австрии, Англии, США, Японии, Израиле, Испании, Греции и Индии
+              li Автор книг «Полеты тонкого тела», «Тибетская эзотерическая астрология»
+              li «Астрология с НУЛЯ!»
+              li «Йога для мозгов»
+
+      footer
+        .col-md-10.col-lg-10.center-block.footer-contacts
+          .contacts
+            address
+              p.name Дмитрий Синько
+
+              p
+                abbr(title="Телефон")
+                  i.fa.fa-phone
+                  | &nbsp; +371 26324070
+
+                br
+
+                abbr(title="e-mail")
+                  i.fa.fa-envelope-o
+                  | &nbsp; sotis@inbox.lv
+
+                br
+
+                abbr(title="skype")
+                  i.fa.fa-skype
+                  | &nbsp; sinko-riga
+
+          .credits
+            p © Астрологическая школа «Сотис»<br>Biedrība TIBETAS IZGLĪTOŠANAS SAVIENĪBA "SOTIS"
+              br 
+              | Reģ. № 40008038505 Президент Дмитрий Синько
+
+        .col-md-1.col-lg-1.footer-bg-left
+        .col-md-1.col-lg-10.footer-bg-center
+        .col-md-1.col-lg-1.footer-bg-right

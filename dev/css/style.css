@@ -1,0 +1,180 @@
+body {
+  background: url("../img/bg-body.gif") #000;
+  font-family: 'Roboto', sans-serif; }
+
+.container {
+  margin-top: 50px; }
+
+header {
+  height: 65px;
+  color: #fff; }
+  header .header-bg-left {
+    background: url("../img/bg-header-left.png") no-repeat right;
+    height: 65px; }
+  header .header-bg-center, header .footer-bg-center {
+    background: url("../img/bg-header-center.png") repeat-x;
+    height: 65px;
+    display: inline-table; }
+  header .header-bg-center h2 {
+    display: inline;
+    height: 65px;
+    line-height: 65px;
+    vertical-align: middle;
+    text-shadow: 3px 4px rgba(0, 0, 0, 0.35); }
+  header .header-bg-right {
+    background: url("../img/bg-header-right.png") no-repeat;
+    height: 65px; }
+
+article #main-block {
+  background: url("../img/bg-subscribe.jpg") no-repeat;
+  margin-top: -6px;
+  height: 413px; }
+  article #main-block #subscribe {
+    width: 40%;
+    background: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    border-radius: 10px;
+    height: 260px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 500px; }
+    article #main-block #subscribe h4, article #main-block #subscribe button {
+      text-align: center;
+      margin: 35px 0 -8px 0;
+      text-transform: uppercase;
+      font-weight: 500;
+      text-shadow: 2px 2px rgba(0, 0, 0, 0.3); }
+    article #main-block #subscribe h4 {
+      color: #fff; }
+    article #main-block #subscribe button {
+      width: 91%;
+      margin: 0 auto;
+      border-color: #212121;
+      color: #fff; }
+    article #main-block #subscribe input {
+      width: 90%; }
+
+article #gifts ul {
+  list-style-type: none; }
+
+article #gifts li {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  margin-left: -35px; }
+
+article #gifts .jumbotron {
+  border-radius: 0;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: -15px;
+  width: 950px; }
+  article #gifts .jumbotron h2 {
+    margin-top: -10px;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2); }
+  article #gifts .jumbotron p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 100; }
+
+article #about {
+  background: #333;
+  color: #eee;
+  height: 470px; }
+  article #about .pull-right {
+    width: 63%;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  article #about .small-font {
+    font-size: 16px;
+    margin: 12px 10px 5px 10px; }
+  article #about img {
+    margin-top: 5px; }
+  article #about h3 {
+    margin-top: 45px; }
+  article #about ul {
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Roboto, "sans-serif"; }
+
+.center-block {
+  float: none; }
+
+.center-form {
+  margin: 35px 0 0 30px; }
+
+footer {
+  height: 115px; }
+  footer .footer-contacts {
+    background: #01040A; }
+  footer .contacts {
+    width: 30%;
+    height: 120px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 25px; }
+  footer .contacts-name {
+    font-weight: 400;
+    font-size: 16px;
+    color: white; }
+  footer .contacts-other {
+    color: #99979c; }
+  footer .credits {
+    display: inline-block;
+    width: 65%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500; }
+  footer li {
+    color: #fff;
+    display: inline-block;
+    margin: 15px 50px 0 -15px; }
+  footer p {
+    color: #99979C; }
+
+.footer-bg-left, .footer-bg-center, .footer-bg-right {
+  height: 65px;
+  margin-top: -6px; }
+
+.footer-bg-left {
+  background: url("../img/bg-footer-left.png") no-repeat right; }
+
+.footer-bg-center {
+  background: url("../img/bg-footer-center.png") repeat-x;
+  margin-bottom: 50px; }
+
+.footer-bg-right {
+  background: url("../img/bg-footer-right.png") no-repeat left; }
+
+.header-bg-center {
+  text-align: center; }
+
+.footer-contacts {
+  background: black; }
+
+.contacts {
+  width: 30%;
+  height: 120px;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 25px; }
+  .contacts p {
+    color: #99979c; }
+
+p.name {
+  font-weight: 400;
+  font-size: 16px;
+  color: white; }
+
+.credits {
+  display: inline-block;
+  width: 65%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500; }
